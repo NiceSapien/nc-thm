@@ -1,13 +1,12 @@
-<img src="https://thatcakeid.com/assets/images/osthmlogo.png" alt="os-thm Logo" width="200"/>
-
  # os-thm
  Stable version: 3.0.3
  Development version: (Not planned yet)
 
  Written by members of ThatCakeID: [リェンーゆく](https://github.com/ryenyuku), and [Iyxan23](https://github.com/Iyxan23).
  Some app's UI designed by: [thatcakepiece](https://github.com/thatcakepiece).
+ Modded by: [NiceSapien](https://github.com/NiceSapien)
 
- os-thm _(stands for: **o**pen**s**ource-**th**e**m**e)_ is a piece of software that can manage, edit, import, export or remove theme. One of the os-thm's key feature is that the theme can be applied globally, means the theme can used by apps that have implemented os-thm.
+ nc-thm _(stands for: **n**ice**s**ource-**th**e**m**e)_ is a piece of software that can manage, edit, import, export or remove theme. One of the os-thm's key feature is that the theme can be applied globally, means the theme can used by apps that have implemented os-thm.
  os-thm is intended to be open-source, rich, and easy to use.
 
  #### So, let's get started!
@@ -94,9 +93,5 @@
 
 ### Branches:
  - master: Current latest and stable version of os-thm-android.
- - dev: Current canary branch with newest features, bug patches, and still in development state.
 
- Documentation written by [Iyxan23](https://github.com/Iyxan23) and slightly edited by [リェンーゆく](https://github.com/ryenyuku)
-
- (c) Copyright 2020 [ThatCakeID](https://github.com/ThatCakeID)
-
+ Documentation written by [Iyxan23](https://github.com/Iyxan23) and slightly edited by [NiceSapien](https://github.com/NiceSapien)
