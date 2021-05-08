@@ -1,6 +1,6 @@
- # os-thm
+ # nc-thm
  Stable version: 3.0.3
- Development version: (Not planned yet)
+
 
  Written by members of ThatCakeID: [リェンーゆく](https://github.com/ryenyuku), and [Iyxan23](https://github.com/Iyxan23).
  Some app's UI designed by: [thatcakepiece](https://github.com/thatcakepiece).
