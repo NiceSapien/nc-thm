@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getWindow().setStatusBarColor(0x6c63ff);
+        getWindow().setStatusBarColor(0xFFFFFF);
 
         if (ContextCompat.checkSelfPermission(MainActivity.this,
                 Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED ||
