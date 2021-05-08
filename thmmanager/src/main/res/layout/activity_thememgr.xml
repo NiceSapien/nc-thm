@@ -1,0 +1,165 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemeManagerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_title"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:elevation="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/text_back"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/googlesans"
+                android:padding="8dp"
+                android:text="@string/mythemes"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gridview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:columnWidth="118dp"
+            android:drawSelectorOnTop="true"
+            android:horizontalSpacing="1dp"
+            android:longClickable="true"
+            android:numColumns="auto_fit"
+            android:padding="1dp"
+            android:smoothScrollbar="true"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="1dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--
+        <TextView
+            android:id="@+id/textview_create2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="88dp"
+            android:layout_marginBottom="256dp"
+            android:background="#212121"
+            android:fontFamily="@font/googlesans"
+            android:padding="8dp"
+            android:text="@string/online"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="246dp"
+            android:clickable="true"
+            android:src="@drawable/ic_baseline_cloud"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" /> -->
+
+        <TextView
+            android:id="@+id/textview_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="88dp"
+            android:layout_marginBottom="186dp"
+            android:background="@drawable/round_preview"
+            android:elevation="2.5dp"
+            android:fontFamily="@font/googlesans"
+            android:padding="8dp"
+            android:text="@string/create_theme"
+            android:textColor="#000000"
+            android:visibility="invisible" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="176dp"
+            android:clickable="true"
+            android:src="@drawable/ic_palette_white"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" />
+
+        <TextView
+            android:id="@+id/textview_import"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="88dp"
+            android:layout_marginBottom="116dp"
+            android:background="@drawable/round_preview"
+            android:elevation="2.5dp"
+            android:fontFamily="@font/googlesans"
+            android:padding="8dp"
+            android:text="@string/import_theme"
+            android:textColor="#000000"
+            android:visibility="invisible" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="106dp"
+            android:clickable="true"
+            android:src="@drawable/ic_import_export_white"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="32dp"
+            android:clickable="true"
+            android:src="@drawable/ic_add_white"
+            app:pressedTranslationZ="12dp" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

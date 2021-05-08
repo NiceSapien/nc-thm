@@ -1,0 +1,3 @@
+include ':thmmanager'
+include ':lib'
+rootProject.name = "os-thm"

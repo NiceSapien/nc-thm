@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">nc-thm</string>
+    <string name="mythemes">My Themes</string>
+    <string name="dummytext">"Originally created by Iyxan23, Ryenyuku and thatcakepiece. Modded by NiceSapien"</string>
+    <string name="back_button">Back Button</string>
+    <string name="create_theme">Create New Themes</string>
+    <string name="import_theme">Import Themes</string>
+    <string name="help_button">Help Button</string>
+    <string name="theme_editor">Theme Editor</string>
+    <string name="info">Info</string>
+    <string name="delete">Delete</string>
+    <string name="export">Export</string>
+    <string name="theme_information">Theme Information</string>
+    <string name="edit">Edit</string>
+    <string name="documentation">Documentation</string>
+    <string name="clone">Clone</string>
+    <string name="online">Online</string>
+    <string name="credits">Originally created by Iyxan23, Ryenyuku and thatcakepiece. Modded by NiceSapien</string>
+</resources>
