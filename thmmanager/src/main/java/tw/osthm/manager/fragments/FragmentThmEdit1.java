@@ -128,7 +128,7 @@ public class FragmentThmEdit1 extends Fragment {
                     public void onClick(View view) {
                         ColorPickerDialog.newBuilder()
                                 .setDialogId(COLOR_PRIMARY_DIALOG_ID)
-                                .setColor(sp.getInt("colorPrimary", -14575885))
+                                .setColor(sp.getInt("colorPrimary", -13749191))
                                 .setShowAlphaSlider(true)
                                 .show(getActivity());
                     }
@@ -139,7 +139,7 @@ public class FragmentThmEdit1 extends Fragment {
                     public void onClick(View view) {
                         ColorPickerDialog.newBuilder()
                                 .setDialogId(COLOR_PRIMARY_DARK_DIALOG_ID)
-                                .setColor(sp.getInt("colorPrimaryDark", -15242838))
+                                .setColor(sp.getInt("colorPrimaryDark", -13749191))
                                 .setShowAlphaSlider(true)
                                 .show(getActivity());
                     }
@@ -150,7 +150,7 @@ public class FragmentThmEdit1 extends Fragment {
                     public void onClick(View view) {
                         ColorPickerDialog.newBuilder()
                                 .setDialogId(COLOR_ACCENT_DIALOG_ID)
-                                .setColor(sp.getInt("colorAccent", -720809))
+                                .setColor(sp.getInt("colorAccent", -9270822))
                                 .setShowAlphaSlider(true)
                                 .show(getActivity());
                     }
@@ -163,19 +163,19 @@ public class FragmentThmEdit1 extends Fragment {
 
     public void refreshViews() {
         if (sp != null && root != null) {
-            refreshCard(sp.getInt("colorPrimary", -14575885), text_colorPrimary,
+            refreshCard(sp.getInt("colorPrimary", -13749191), text_colorPrimary,
                     text_clr_colorPrimary, image_colorPrimary, constraint_colorPrimary);
-            refreshCard(sp.getInt("colorPrimaryDark", -15242838), text_colorPrimaryDark,
+            refreshCard(sp.getInt("colorPrimaryDark", -13749191), text_colorPrimaryDark,
                     text_clr_colorPrimaryDark, image_colorPrimaryDark, constraint_colorPrimaryDark);
-            refreshCard(sp.getInt("colorAccent", -720809), text_colorAccent,
+            refreshCard(sp.getInt("colorAccent", -9270822), text_colorAccent,
                     text_clr_colorAccent, image_colorAccent, constraint_colorAccent);
 
-            fab.setBackgroundTintList(ColorStateList.valueOf(sp.getInt("colorAccent", -720809)));
+            fab.setBackgroundTintList(ColorStateList.valueOf(sp.getInt("colorAccent", -9270822)));
             fab.setRippleColor(sp.getInt("colorControlHighlight", 1073741824));
             fab.setColorFilter(sp.getInt("colorAccentText", -1));
 
-            view_colorPrimary.setBackgroundColor(sp.getInt("colorPrimary", -14575885));
-            view_colorPrimaryDark.setBackgroundColor(sp.getInt("colorPrimaryDark", -15242838));
+            view_colorPrimary.setBackgroundColor(sp.getInt("colorPrimary", -13749191));
+            view_colorPrimaryDark.setBackgroundColor(sp.getInt("colorPrimaryDark", -13749191));
             view_colorPrimaryText.setTextColor(sp.getInt("colorPrimaryText", -1));
 
             if (sp.getInt("shadow", 1) == 1) {
