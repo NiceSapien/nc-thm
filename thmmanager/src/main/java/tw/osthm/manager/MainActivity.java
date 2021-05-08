@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        handler.postDelayed(runnable, 2000);
+        handler.postDelayed(runnable, 1500);
     }
 
     private void loadTheme() {
@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.rootView).setBackgroundColor(theme.colorBackground);
         ((TextView) findViewById(R.id.textView)).setTextColor(theme.colorBackgroundText);
+        ((TextView) findViewById(R.id.credits)).setTextColor(theme.colorBackgroundText);
 
         getWindow().setStatusBarColor(theme.colorBackground);
 
