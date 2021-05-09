@@ -27,7 +27,7 @@
         android:fontFamily="@font/googlesans"
         android:text="@string/app_name"
         android:textColor="#000000"
-        android:textSize="40dp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -39,7 +39,7 @@
         android:layout_marginBottom="4sp"
         android:gravity="center_horizontal"
         android:text="@string/dummytext"
-        android:textColor="#6e6e6e"
+        android:textColor="#000000"
         android:visibility="visible"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
