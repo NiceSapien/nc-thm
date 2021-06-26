@@ -118,23 +118,23 @@ public class FragmentThmEdit4 extends Fragment {
 
     public void refreshViews() {
         if (sp != null && root != null) {
-            refreshCard(sp.getInt("colorDialog", -1), text_colorDialog,
+            refreshCard(sp.getInt("colorDialog", -14473430), text_colorDialog,
                     text_clr_colorDialog, image_colorDialog, constraint_colorDialog);
-            refreshCard(sp.getInt("colorDialogText", -16777216), text_colorDialogText,
+            refreshCard(sp.getInt("colorDialogText", -1), text_colorDialogText,
                     text_clr_colorDialogText, image_colorDialogText, constraint_colorDialogText);
-            refreshCard(sp.getInt("colorDialogTint", -16777216), text_colorDialogTint,
+            refreshCard(sp.getInt("colorDialogTint", -1), text_colorDialogTint,
                     text_clr_colorDialogTint, image_colorDialogTint, constraint_colorDialogTint);
 
             root.findViewById(R.id.view_dialog).setBackgroundTintList(ColorStateList
-                    .valueOf(sp.getInt("colorDialog", -1)));
+                    .valueOf(sp.getInt("colorDialog", -14473430)));
             ((ImageView) root.findViewById(R.id.image_delete)).setColorFilter(
-                    sp.getInt("colorDialogTint", -16777216));
+                    sp.getInt("colorDialogTint", -1));
             ((ImageView) root.findViewById(R.id.image_edit)).setColorFilter(
-                    sp.getInt("colorDialogTint", -16777216));
+                    sp.getInt("colorDialogTint", -1));
             ((TextView) root.findViewById(R.id.text_title)).setTextColor(
-                    sp.getInt("colorDialogText", -16777216));
+                    sp.getInt("colorDialogText", -1));
             ((TextView) root.findViewById(R.id.text_subtitle)).setTextColor(
-                    sp.getInt("colorDialogText", -16777216));
+                    sp.getInt("colorDialogText", -1));
         }
     }
 

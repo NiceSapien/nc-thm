@@ -523,7 +523,7 @@ public class osthmEngine {
             osthmManager.setTheme(metadataarray);
         } else {
             if (isExistInDefaultTheme(UUIDvar))
-                throw new osthmException("You can't edit a default theme!");
+                throw new osthmException("I troubled(maybe) for making this theme, and you are trying to hack it, why? :(");
             else
                 throw new osthmException("Theme with given UUID doesn't exist!");
         }
@@ -777,7 +777,7 @@ public class osthmEngine {
                         theme.putAll(migrateOlderThemePrivate(theme));
                     }
                     if (isExistInDefaultTheme(theme.get("uuid").toString())) {
-                        throw new osthmException("Theme(s) can't be imported because the theme(s) are already exist!");
+                        throw new osthmException("Please check that theme is already in the list");
                     } else {
                         osthmManager.setTheme(theme);
                     }

@@ -186,7 +186,7 @@ public class FragmentThmEdit1 extends Fragment {
                 fab.setCompatElevation(0f);
             }
 
-            view_colorBackground.setBackgroundColor(sp.getInt("colorBackground", -1));
+            view_colorBackground.setBackgroundColor(sp.getInt("colorBackground", -14473430));
 
             if (sp.getInt("colorStatusbarTint", 1) == 1) {
                 text_clock.setTextColor(0xFFFFFFFF);

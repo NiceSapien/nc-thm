@@ -111,6 +111,7 @@ public class ThemeEditorActivity extends AppCompatActivity implements ColorPicke
                     if (getIntent().getBooleanExtra("isEditing", false)) {
                         OsThmMetadata thmMetadata = osthmEngine.getThemeMetadata(getIntent()
                                 .getStringExtra("theme"));
+
                         til1.setText(thmMetadata.themesname);
                         til2.setText(thmMetadata.themesauthor);
                         til3.setText(thmMetadata.themesinfo);

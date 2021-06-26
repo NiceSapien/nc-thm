@@ -14,7 +14,7 @@ import java.util.HashMap;
  *
  * @author ThatCakeID Team and NiceSapien
  * @version 1.0
- * @since 2020 and modded in 2021
+ * @since 2020 and modded in 2021 by NiceSapien
  */
 
 public class OsThmTheme {

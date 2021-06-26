@@ -14,7 +14,7 @@ public class DebugActivity extends AppCompatActivity {
         setContentView(R.layout.placeholder_layout);
 
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
-        alertDialog.setTitle("Woopsie! App crashed!");
+        alertDialog.setTitle("Kinda sorry coz app crashed");
         alertDialog.setMessage(getIntent().getStringExtra("error"));
         alertDialog.setPositiveButton("Ohk", new DialogInterface.OnClickListener() {
             @Override

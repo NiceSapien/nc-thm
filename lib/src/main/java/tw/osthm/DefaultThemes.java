@@ -37,19 +37,19 @@ public class DefaultThemes {
         ArrayList<HashMap<String, Object>> defaultThemes = new ArrayList<>();
         defaultThemes = new ArrayList<>();
         defaultThemes.add(0, addKeyToHashMap("themesname", "Light"));
-        defaultThemes.get(0).put("themesjson", "{\"colorPrimary\":-1,\"colorBackgroundCardTint\":-7762803,\"colorPrimaryDark\":-1,\"colorBackgroundText\":-16777216,\"colorBackground\":-1,\"shadow\":1,\"colorDialog\":-1,\"colorPrimaryTint\":-9270822,\"colorHint\":-6381922,\"colorStatusbarTint\":0,\"colorDialogTint\":-9270822,\"colorPrimaryCardTint\":-9270822,\"colorPrimaryText\":-9270822,\"colorAccent\":-9270822,\"colorBackgroundCardText\":-16777216,\"colorBackgroundTint\":-16777216,\"colorControlHighlight\":1073741824,\"colorAccentText\":-1,\"colorDialogText\":-9270822,\"colorBackgroundCard\":-1,\"colorPrimaryCardText\":-16777216,\"colorPrimaryCard\":-1}");
-        defaultThemes.get(0).put("themesinfo", "Light dumb theme of Discord and nc-thm");
+        defaultThemes.get(0).put("themesjson", "{\"colorPrimary\":-1,\"colorBackgroundCardTint\":-7762803,\"colorPrimaryDark\":-1,\"colorBackgroundText\":-16777216,\"colorBackground\":-1,\"shadow\":1,\"colorDialog\":-1,\"colorPrimaryTint\":-10983950,\"colorHint\":-6381922,\"colorStatusbarTint\":0,\"colorDialogTint\":-10983950,\"colorPrimaryCardTint\":-10983950,\"colorPrimaryText\":-10983950,\"colorAccent\":-10983950,\"colorBackgroundCardText\":-16777216,\"colorBackgroundTint\":-16777216,\"colorControlHighlight\":1073741824,\"colorAccentText\":-1,\"colorDialogText\":-10983950,\"colorBackgroundCard\":-1,\"colorPrimaryCardText\":-16777216,\"colorPrimaryCard\":-1}");
+        defaultThemes.get(0).put("themesinfo", "Light theme of Discord and nc-thm");
         defaultThemes.get(0).put("themesauthor", "Discord, Inc and NiceSapien");
         defaultThemes.get(0).put("os-thm-version", metadataVersion);
         defaultThemes.get(0).put("uuid", "dark");
-        defaultThemes.get(0).put("theme-version", 1);
+        defaultThemes.get(0).put("theme-version", 2);
         defaultThemes.add(1, addKeyToHashMap("themesname", "Dark"));
-        defaultThemes.get(1).put("themesjson", "{\"colorPrimary\":-13749191,\"colorBackgroundCardTint\":-7762803,\"colorPrimaryDark\":-13749191,\"colorBackgroundText\":-1,\"colorBackground\":-14473430,\"shadow\":1,\"colorDialog\":-14473430,\"colorPrimaryTint\":-1,\"colorHint\":-6381922,\"colorStatusbarTint\":1,\"colorDialogTint\":-1,\"colorPrimaryCardTint\":-14473430,\"colorPrimaryText\":-1,\"colorAccent\":-9270822,\"colorBackgroundCardText\":-1,\"colorBackgroundTint\":-1,\"colorControlHighlight\":1073741824,\"colorAccentText\":-1,\"colorDialogText\":-1,\"colorBackgroundCard\":-14473430,\"colorPrimaryCardText\":-16777216,\"colorPrimaryCard\":-1}");
+        defaultThemes.get(1).put("themesjson", "{\"colorPrimary\":-13749191,\"colorBackgroundCardTint\":-7762803,\"colorPrimaryDark\":-13749191,\"colorBackgroundText\":-1,\"colorBackground\":-14473430,\"shadow\":1,\"colorDialog\":-14473430,\"colorPrimaryTint\":-1,\"colorHint\":-6381922,\"colorStatusbarTint\":1,\"colorDialogTint\":-1,\"colorPrimaryCardTint\":-14473430,\"colorPrimaryText\":-1,\"colorAccent\":-10983950,\"colorBackgroundCardText\":-1,\"colorBackgroundTint\":-1,\"colorControlHighlight\":1073741824,\"colorAccentText\":-1,\"colorDialogText\":-1,\"colorBackgroundCard\":-14473430,\"colorPrimaryCardText\":-16777216,\"colorPrimaryCard\":-1}");
         defaultThemes.get(1).put("themesinfo", "The default(dark) theme of Discord and nc-thm");
         defaultThemes.get(1).put("themesauthor", "Discord, Inc and NiceSapien");
         defaultThemes.get(1).put("os-thm-version", metadataVersion);
         defaultThemes.get(1).put("uuid", "default");
-        defaultThemes.get(1).put("theme-version", 1);
+        defaultThemes.get(1).put("theme-version", 2);
         return defaultThemes;
     }
 
@@ -59,7 +59,7 @@ public class DefaultThemes {
     /**
      * This method returns a HashMap containing
      * the given key and object. Used as Util in
-     * osthm
+     * ncthm
      *
      * @param key   Key
      * @param value Value

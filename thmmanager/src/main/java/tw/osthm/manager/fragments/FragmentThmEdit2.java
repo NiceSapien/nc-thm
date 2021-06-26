@@ -259,11 +259,11 @@ public class FragmentThmEdit2 extends Fragment {
 
     public void refreshViews() {
         if (sp != null && root != null) {
-            statusbar_tint.setBackgroundColor(sp.getInt("colorStatusbarTint", 1) == 1 ?
+            statusbar_tint.setBackgroundColor(sp.getInt("colorStatusbarTint", -9270822) == -9270822 ?
                     0xFFFFFFFF : 0xFF000000);
-            text_statusbar_tint.setText(sp.getInt("colorStatusbarTint", 1) == 1 ?
+            text_statusbar_tint.setText(sp.getInt("colorStatusbarTint", -9270822) == -9270822 ?
                     "White" : "Black");
-            text_statusbar_tint.setTextColor(sp.getInt("colorStatusbarTint", 1) == 1 ?
+            text_statusbar_tint.setTextColor(sp.getInt("colorStatusbarTint", -9270822) == -9270822 ?
                     0xFF808080 : 0xFFFFFFFF);
 
             // Refresh cards
@@ -280,23 +280,23 @@ public class FragmentThmEdit2 extends Fragment {
             fab.setRippleColor(sp.getInt("colorControlHighlight", default_color_control_highlight));
 
             // colorAccent
-            fab.setBackgroundTintList(ColorStateList.valueOf(sp.getInt("colorAccent", -720809)));
-            fake_edit_text_accent.setBackgroundColor(sp.getInt("colorAccent", -720809));
+            fab.setBackgroundTintList(ColorStateList.valueOf(sp.getInt("colorAccent", -9270822)));
+            fake_edit_text_accent.setBackgroundColor(sp.getInt("colorAccent", -9270822));
 
             // colorAccentText
             fab.setColorFilter(sp.getInt("colorAccentText", default_color_accent_text));
 
             // colorBackground
-            background.setBackgroundColor(sp.getInt("colorBackground", -1));
+            background.setBackgroundColor(sp.getInt("colorBackground", -14473430));
 
             //colorBackgroundText
-            background_text.setTextColor(sp.getInt("colorBackgroundText", -16777216));
+            background_text.setTextColor(sp.getInt("colorBackgroundText", -1));
 
             // colorHint
             fake_edit_text_hint.setTextColor(sp.getInt("colorHint", -5723992));
 
             // colorStatusbarTint
-            if (sp.getInt("colorStatusbarTint", 1) == 1) {
+            if (sp.getInt("colorStatusbarTint", -9270822) == -9270822) {
                 statusbar_text.setTextColor(0xFFFFFFFF);
                 statusbar_icon1.setColorFilter(0xFFFFFFFF);
                 statusbar_icon2.setColorFilter(0xFFFFFFFF);
@@ -318,8 +318,8 @@ public class FragmentThmEdit2 extends Fragment {
             }
 
             // Other changes ===========================================================================
-            color_primary_app_bar.setBackgroundColor(sp.getInt("colorPrimary", -14575885));
-            color_primary_dark_status_bar.setBackgroundColor(sp.getInt("colorPrimaryDark", -15242838));
+            color_primary_app_bar.setBackgroundColor(sp.getInt("colorPrimary", -13749191));
+            color_primary_dark_status_bar.setBackgroundColor(sp.getInt("colorPrimaryDark", -13749191));
             app_bar_title.setTextColor(sp.getInt("colorPrimaryText", -1));
             enable_shadow.setChecked(sp.getInt("shadow", 1) == 1);
             textView3.setTextColor(TEXT_COLOR);

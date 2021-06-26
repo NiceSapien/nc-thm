@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -66,7 +67,8 @@
                 android:fontFamily="@font/googlesans"
                 android:hint="Theme Name"
                 android:singleLine="true"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                tools:text="Bad theme" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -81,7 +83,7 @@
                 android:fontFamily="@font/googlesans"
                 android:hint="Theme Author Name"
                 android:singleLine="true"
-                android:text="NiceSapien"
+                android:text="A Human"
                 android:textSize="14sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -97,7 +99,8 @@
                 android:fontFamily="@font/googlesans"
                 android:hint="Theme Description"
                 android:singleLine="true"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                tools:text="My bad theme" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -112,7 +115,7 @@
                 android:hint="Theme Version"
                 android:inputType="numberSigned"
                 android:singleLine="true"
-                android:text="1"
+                android:text="99999999"
                 android:textSize="14sp" />
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
