@@ -79,6 +79,7 @@ public class ThemeManagerActivity extends AppCompatActivity {
 
     private ImageView image_edit;
     private ImageView image_delete;
+    private ImageView image_about;
 
 
     private TextView text_title;
@@ -687,5 +688,13 @@ public class ThemeManagerActivity extends AppCompatActivity {
                 }
             }
         }
+    }
+
+    public void help(View view) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse("https://github.com/NiceSapien/nc-thm"));
+
+        startActivity(intent);
     }
 }

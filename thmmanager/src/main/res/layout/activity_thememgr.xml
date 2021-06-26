@@ -35,6 +35,13 @@
                 android:textColor="#FFFFFF"
                 android:textSize="16sp" />
 
+            <ImageView
+                android:id="@+id/about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_help_outline_white"
+                android:onClick="help"/>
+
 
         </LinearLayout>
 
@@ -59,6 +66,7 @@
         android:id="@+id/relative1"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
 
         <!--
         <TextView
