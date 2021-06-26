@@ -12,19 +12,20 @@
  #### So, let's get started!
 
  ## For Consumers
- os-thm is an easier way to change your theme globally for every single app that has implemented os-thm with a single click of a button.
+ nc-thm is an easier way to change your theme globally for every single app that has implemented nc-thm with a single click of a button.
 
- Make sure to have the os-thm Manager app installed, as it's supposed to be the manager for all os-thm themes. You can [download it here](https://os-thm.thatcakeid.com).
+ Make sure to have the nc-thm Manager app installed, as it's supposed to be the manager for all nc-thm themes. You can [download it here](https://os-thm.thatcakeid.com).
 
  ## For Developers
- os-thm is an easier way to make theme accessible to the user without worrying about managing themes, all of that _(adding, importing, removing, editing themes)_ are managed by os-thm, and the best part is, it's [open source](https://github.com/ThatCakeID/os-thm-android)!
+ nc-thm is an easier way to make theme accessible to the user without worrying about managing themes, all of that _(adding, importing, removing, editing themes)_ are managed by nc-thm, and the best part is, it's [open source](https://github.com/ThatCakeID/os-thm-android)!
 
  ### How to implement nc-thm to your app?
 
- (Note: for sketchware developers, you might want to use [os-thm-sketchware](https://github.com/ThatCakeID/os-thm-sketchware))
+ (Note: for sketchware developers, you might want to use [nc-thm-sketchware](https://project.sketchub.in/?id=920))
 
   - Add Jitpack repositories to your root build.gradle
-  ```allprojects {
+  ```gradle
+  allprojects {
      	repositories {
      		...
      		maven { url 'https://jitpack.io' }
@@ -34,28 +35,27 @@
   ```
  
   - Add os-thm implementation to your build.gradle
-    ```dependencies {
+    ```gradle
+    dependencies {
             ...
        	    implementation 'com.github.ThatCakeID:os-thm-android:3.0.3'
        	    ...
     }
 
     ```
-    _..or if you have trouble while implementing the library, try downloading the .aar file in the package tab and import it as library on android studio._
  
   - Grant Read and Write External Storage Permission
  
  That's it.
 
  ### How to use the library?
- How to apply the current applied theme with os-thm
+ How to apply the current applied theme with nc-thm
  ```java
  OsThmTheme currentTheme = osthmEngine.getCurrentTheme();
  myFab.setBackgroundColor(currentTheme.colorAccent);
  rootView.setBackgroundColor(currentTheme.colorBackground);
  etc...
  ```
- We are currently finding solutions for applying theme to be less tedious, and easier.
 
  That's it!
 
